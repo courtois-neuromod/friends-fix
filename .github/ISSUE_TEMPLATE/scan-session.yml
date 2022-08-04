@@ -18,24 +18,24 @@ body:
       - label: biopac
       - label: sensimetrics
       - label: eyetracker
-      - label: game controller
 
 - type: textarea
   attributes:
     label: general notes
 
 
-- type: markdown
+- type: input
   attributes:
-    value: "## task-mariostars_run-01"
+    label: run-01_task
+    value: "## task-s06e0xy"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-01 completion  
+    label: task-friends_run-01 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-01 issues
+    label: task-friends_run-01 issues
     multiple: true
     options:
       - sleep
@@ -45,19 +45,20 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-01 notes
+    label: task-friends_run-01 notes
 
-- type: markdown
+- type: input
   attributes:
-    value: "## task-mariostars_run-02"
+    label: run-02_task
+    value: "## task-s06e0xy"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-02 completion  
+    label: task-friends_run-02 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-02 issues
+    label: task-friends_run-02 issues
     multiple: true
     options:
       - sleep
@@ -67,21 +68,22 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-02 notes
+    label: task-friends_run-02 notes
 
 
 
-- type: markdown
+- type: input
   attributes:
-    value: "## task-mariostars_run-03"
+    label: run-03_task
+    value: "## task-s06e0xy"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-03 completion  
+    label: task-friends_run-03 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-03 issues
+    label: task-friends_run-03 issues
     multiple: true
     options:
       - sleep
@@ -91,19 +93,20 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-03 notes
+    label: task-friends_run-03 notes
 
-- type: markdown
+- type: input
   attributes:
-    value: "## task-mariostars_run-04"
+    label: run-04_task
+    value: "## task-s06e0xy"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-04 completion  
+    label: task-friends_run-04 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-04 issues
+    label: task-friends_run-04 issues
     multiple: true
     options:
       - sleep
@@ -113,26 +116,5 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-04 notes
+    label: task-friends_run-04 notes
 
-- type: markdown
-  attributes:
-    value: "## task-mariostars_run-05"
-- type: checkboxes
-  attributes:
-    label: task-mariostars_run-05 completion  
-    options:
-      - label: series was completed.
-- type: dropdown
-  attributes:
-    label: task-mariostars_run-05 issues
-    multiple: true
-    options:
-      - sleep
-      - excessive motion
-      - eyetracking issues (crash, pupil loss)
-      - physio signal quality issue
-      - controller issues
-- type: textarea
-  attributes:
-    label: task-mariostars_run-05 notes
